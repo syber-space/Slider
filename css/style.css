@@ -1,0 +1,410 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #fff;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.container{
+    width: 1115px;
+}
+
+
+/*--------- overiding navigation css --------------- */
+
+.navbar-brand {
+    height: auto;
+    padding: 0;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: 0;
+}
+
+.nav {
+    margin-left: 16%;
+    margin-top: 28px;
+}
+
+.navbar-nav>li {
+    margin-right: 20px
+} 
+
+.navbar-nav>li.active>a {
+    
+    background: url(../images/menuHover.png) #fff !important;
+}
+
+.navbar-nav>li>a {
+    padding: 4px 27px;
+}
+
+.navbar-right {
+    margin-top: 27px;
+}
+
+.profile-icon {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.background-first {
+    height: 745px;
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 81px;    
+    padding: 30px
+}
+
+.background-sec {
+    height: 480px;
+    background-image: url(../images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px
+}
+
+.background-third {
+    height: 1150px;
+    background-image: url(../images/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 10px;
+}
+
+
+/*------------------second section---------------*/
+
+.performance1 {
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/meaurement1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 40px;
+    position: relative
+}
+.performance1 .per-text {
+    position: absolute;
+    top: 80px;
+    width: 80px;
+    text-align: center;
+    left: 9px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.performance2 .per-text {
+    position: absolute;
+    top: 10px;
+    width: 60px;
+    text-align: center;
+    left: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.performance2 {
+    width: 100%;
+    height: 61px;
+    background-image: url(../images/meaurement2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+    position: relative
+}
+
+.review-boxes {
+    margin-top: 30px
+}
+.update-date {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.review-box1 {
+    height: 58px;
+    width: 220px;
+    background-image: url(../images/btn1.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+        color: #fff;
+    padding: 18px 3px 18px 83px;
+    text-align: left;
+}
+
+.review-box2 {
+    height: 58px;
+    width: 220px;
+    background-image: url(../images/btn2.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+        color: #fff;
+    padding: 18px 3px 18px 83px;
+    text-align: left;
+}
+
+/*------------------Third section-------------*/
+
+.discover-box {
+    height: 540px;
+    width: 545px;
+    background-image: url(../images/carouselBox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc-box {
+    height: 540px;
+    width: 545px;
+    background-image: url(../images/calback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc-box h1 {
+    margin-bottom: 50px;
+}
+.discover-box h1, .calc-box h1 {
+    margin-top: 25px;
+}
+
+/*range*/
+
+#ex1Slider .slider-selection {
+	background: #ffc924;
+}
+
+.range-boxes {
+    margin-top: 20px; 
+}
+
+.range-boxes p {
+    color: #fff;
+    margin: 0;
+}
+
+.slider.slider-horizontal {
+    width: 100%;
+}
+.slider.slider-horizontal .slider-track {
+    border: 1px solid #000;
+}
+
+.range1 .slider-handle {
+    background-image: url(../images/range1.png);
+    background-repeat: no-repeat;
+    top: -14px;
+    width: 48px;
+    height: 50px;
+}
+
+.range2 .slider-handle {
+    background-image: url(../images/range2.png);
+    background-repeat: no-repeat;
+    top: -14px;
+    width: 48px;
+    height: 50px;
+}
+
+.range3 .slider-handle {
+    background-image: url(../images/range3.png);
+    background-repeat: no-repeat;
+    top: -14px;
+    width: 48px;
+    height: 50px;
+}
+
+.range4 .slider-handle {
+    background-image: url(../images/range4.png);
+    background-repeat: no-repeat;
+    top: -14px;
+    width: 48px;
+    height: 50px;
+}
+
+.value-box {
+    width: 80px;
+    height: 49px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.value-box2 {
+    width: 100px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.value-box .value-text {
+    color: #000;
+    font-size: 20px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center
+}
+
+.value-box img {
+    cursor: pointer
+}
+
+.save-reset img {
+    margin-left: 20px; 
+    cursor: pointer;
+}
+
+.save-reset p {
+    margin-bottom: 20px
+}
+
+.last-range {
+    margin-top: 40px;
+}
+
+/*temporary*/
+.carousel-inner {
+    margin-top: 40px;
+}
+
+.readmore {
+    color: #e79f2e;
+    text-decoration: underline;
+}
+.readmore:hover {
+    color: #e79f2e;
+    text-decoration: none;
+}
+
+
+.discover-box p {
+    color: #fff;
+    margin-top: 20px;
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+.league-table-heading {
+    margin: 40px 0;
+    width: 100%;
+}
+
+table thead {
+    background-color: #918776;
+    border-bottom: 5px solid #31231a; 
+}
+
+table thead tr th {
+    padding: 18px !important;
+    color: #4e433a;
+    font-weight: bold;
+}
+.table-striped>tbody>tr {
+    border-bottom: 2px solid #4e433a;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #57493e;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #685b50;
+}
+
+.table-striped>tbody>tr:hover {
+    background-color: #e79f2e;
+}
+
+.table-striped>tbody>tr:hover>td {
+    color: #000;
+}
+table tbody tr td {
+    color: #fff;
+    padding: 12px 15px !important;
+}
+
+.custom-btn {
+    background-image: url(../images/btnBack.png);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px 24px;
+    margin-top: 50px
+}
+
+
+/*footer*/
+
+.footer-nav {
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+    width: 516px;
+}
+
+.footer-nav li {
+    float: left;
+    margin-right: 40px;
+    
+}
+
+.footer-nav li:last-child {
+    
+    margin-right: 0px;
+    
+}
+.footer-nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*helper classes */
+.no-padding {
+    padding: 0;
+}
+
+.width100 {
+    width: 100%
+}
